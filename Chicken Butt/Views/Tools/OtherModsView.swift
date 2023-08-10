@@ -78,11 +78,11 @@ struct OtherModsView: View {
                             // bring up the text prompts
                             sizeAlert.addTextField { (textField) in
                                 // text field for width
-                                textField.placeholder = NSLocalizedString("Width", comment: "Width of passcode keys")
+                                textField.placeholder = NSLocalizedString("Height", comment: "Width of passcode keys")
                             }
                             sizeAlert.addTextField { (textField) in
                                 // text field for height
-                                textField.placeholder = NSLocalizedString("Height", comment: "Height of passcode keys")
+                                textField.placeholder = NSLocalizedString("Width", comment: "Height of passcode keys")
                             }
                             sizeAlert.addAction(UIAlertAction(title: NSLocalizedString("Confirm", comment: ""), style: .default) { (action) in
                                 // set the sizes
